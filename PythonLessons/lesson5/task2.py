@@ -1,0 +1,10 @@
+
+Ocenki = input("Введите оценки: ")
+five=Ocenki.count("5")
+four=Ocenki.count("4")
+three=Ocenki.count("3")
+two=Ocenki.count("2")
+print(Ocenki)
+SumOc = (Ocenki.count("5") + Ocenki.count("4") + Ocenki.count("3") + Ocenki.count("2"))
+print(SumOc)
+print((five+four+three)/SumOc*100)
